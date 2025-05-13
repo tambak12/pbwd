@@ -1,0 +1,24 @@
+header {
+    background-color: #a00404;
+    color: white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #000000;
+
+}

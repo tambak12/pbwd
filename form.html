@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Input Data</title>
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="image tabel.jpg.png" alt="Gambar Header Bengkel" />
+    </div>
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="form.html" class="active">Memasukkan Data</a></li>
+      <li><a href="datatabel.html">Data Tabel</a></li>
+    </ul>
+  </nav>
+
+  <div class="form-container">
+    <h2>Formulir Pengisian Data Perbaikan</h2>
+    <form action="#" method="POST">
+      <!-- Jenis Kendaraan -->
+      <label for="jenis">Jenis Kendaraan:</label>
+      <input type="text" id="jenis" name="jenis" placeholder="Contoh: Motor Bebek" required />
+
+      <!-- Plat Nomor -->
+      <label for="plat">Plat Nomor:</label>
+      <input type="text" id="plat" name="plat" placeholder="Contoh: BK 1234 AB" required />
+
+      <!-- Tanggal Masuk -->
+      <label for="tanggal">Tanggal Masuk Bengkel:</label>
+      <input type="date" id="tanggal" name="tanggal" required />
+
+      <!-- Barang yang Diperbaiki -->
+      <label for="barang">Barang yang Diperbaiki:</label>
+      <textarea id="barang" name="barang" rows="3" placeholder="Contoh: Ganti Oli, Service Rem" required></textarea>
+
+      <!-- Submit -->
+      <button onclick="location.href='datatabel.html'" class="sign">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
